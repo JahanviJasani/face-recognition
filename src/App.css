@@ -1,0 +1,48 @@
+.wrapper {
+  padding: 0 200px;
+}
+
+.form_control {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  padding: 18px 15px 13px;
+  border: 1px solid rgba(127, 94, 221, 0.7);
+  background: none;
+  border-radius: 5px;
+  box-shadow: inset 3px 3px 10px 0 rgb(0,0,0,0.1);
+  outline: none;
+}
+
+::-webkit-input-placeholder { 
+  font-family: 'Nunito', sans-serif;
+  color: rgba(255,255,255,0.3);
+  letter-spacing: 0.6px;
+  font-weight: 300;
+}
+
+::-moz-placeholder { 
+  font-family: 'Nunito', sans-serif;
+  color: rgba(255,255,255,0.5);
+  font-weight: 300;
+}
+
+:-ms-input-placeholder { 
+  font-family: 'Nunito', sans-serif;
+  color: rgba(255,255,255,0.5);
+  font-weight: 300;
+}
+
+:-moz-placeholder { 
+  font-family: 'Nunito', sans-serif;
+  color: rgba(255,255,255,0.5);
+  font-weight: 300;
+}
+
+.btn {
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+}
