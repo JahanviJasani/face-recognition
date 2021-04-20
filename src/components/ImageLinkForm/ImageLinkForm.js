@@ -5,7 +5,7 @@ const ImageLinkForm = () => {
   return (
     <div className="form_wrapper">
       <h2></h2>
-      <form>
+      <form className="imagelink_form">
         <div className="form_group">
           <label>Image Link</label>
           <div className="form_inner">
