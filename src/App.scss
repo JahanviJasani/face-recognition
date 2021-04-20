@@ -4,20 +4,20 @@
 
 .form_control {
   width: 100%;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
-  padding: 18px 15px 13px;
-  border: 1px solid rgba(127, 94, 221, 0.7);
+  padding: 20px 15px 15px;
+  border: 1px solid rgba(127, 94, 221, 0.8);
   background: none;
-  border-radius: 5px;
-  box-shadow: inset 3px 3px 10px 0 rgb(0,0,0,0.1);
+  border-radius: 4px;
+  box-shadow: inset 3px 3px 10px 0 rgba(0,0,0,0.1);
   outline: none;
 }
 
 ::-webkit-input-placeholder { 
   font-family: 'Nunito', sans-serif;
-  color: rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.5);
   letter-spacing: 0.6px;
   font-weight: 300;
 }

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from './components/Header/Header';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm'
 
