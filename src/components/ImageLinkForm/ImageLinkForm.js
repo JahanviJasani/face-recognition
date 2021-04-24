@@ -5,7 +5,6 @@ import right_arrow from './right_arrow.svg';
 const ImageLinkForm = ({onInputChange, onDetect}) => {
   return (
     <div className="form_wrapper">
-      <h2></h2>
       <form className="imagelink_form">
         <div className="form_group">
           <label>Image Link</label>

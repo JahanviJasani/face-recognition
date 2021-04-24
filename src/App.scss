@@ -4,9 +4,9 @@
 
 .form_control {
   width: 100%;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
-  color: #fff;
+  color: rgba(255,255,255,0.7);
   padding: 20px 15px 15px;
   border: 1px solid rgba(127, 94, 221, 0.8);
   background: none;
@@ -46,4 +46,10 @@
   background: none;
   outline: none;
   border: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
 }
