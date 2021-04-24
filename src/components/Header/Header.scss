@@ -1,13 +1,30 @@
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 50px 0;
+  >div {
+    flex: 1 0 33.33%;
+  }
+  .app_name {
+    text-align: center;
+    h2 {
+      font-family: 'Fira Mono', monospace;
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: -0.8px;
+      color: #ccc;
+    }
+  }
   .logo {
+    display: flex;
     img {
-      max-width: 80px
+      max-width: 80px;
+      margin-right: 10px;
     }
   } 
+  .btn_group {
+    text-align: right;
+  }
   .sign_btn {
     position: relative;
     display: inline-block;
@@ -18,7 +35,7 @@
     text-transform: uppercase;
     padding: 0 5px 12px;
     border-radius: 30px;
-    color: #fff;
+    color: #ccc;
     &:before {
       content: '';
       position: absolute;

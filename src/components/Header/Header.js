@@ -5,11 +5,16 @@ import logo from './logo.svg'
 
 const Header = () => {
   return (
-    <nav className="header">
+    <nav className="header">      
       <div className="logo">
         <img alt="logo" src={logo}/>
       </div>
-      <button className="btn sign_btn">Sign Out</button>
+      <div className="app_name">
+        <h2>Face Detector</h2>
+      </div>
+      <div className="btn_group">
+        <button className="btn sign_btn">Sign Out</button>
+      </div>
     </nav>
   )
 }
